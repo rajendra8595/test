@@ -1,7 +1,7 @@
 # How to add runbook to onemarket docs
 
 
-## 1. To get runbooks in **docs.one.market**, need to update below yml file#
+* 1. To get runbooks in **docs.one.market**, need to update below yml file *
 
   https://github.com/wrsinc/omdocs/blob/master/mkdocs.yml
 
@@ -41,10 +41,10 @@
 
   e.g.:
 
-  - Level One:
-     - Granting IAM Permissions: ops/runbooks/talentica/grantingiam.md
-     - Talentica: ops/runbooks/talentica/talentica.md
-     - Troubleshooting Builds: ops/runbooks/talentica/troubleshooting_jenkins.md
+  -Level One:
+     -Granting IAM Permissions: ops/runbooks/talentica/grantingiam.md
+     -Talentica: ops/runbooks/talentica/talentica.md
+     -Troubleshooting Builds: ops/runbooks/talentica/troubleshooting_jenkins.md
 
 
 ## 4. Add all runbooks in alphabetical order
