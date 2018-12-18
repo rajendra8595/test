@@ -8,9 +8,11 @@
 
 ## 2. Clone git repo locally 
 
-  `git clone https://github.com/wrsinc/omdocs.git
-   Username:
-   Password:`
+  git clone https://github.com/wrsinc/omdocs.git
+   
+  Username:
+   
+  Password:
 
   ls
 
@@ -18,7 +20,7 @@
   
   git branch POT-XXXX
   
-  git checkout
+  git checkout POT-XXXX
 
   vim mkdocs.yml
 
@@ -32,7 +34,9 @@
 
   git commit -m "[POT-XXXX] Update mdocs file"
 
-
+  git push --set-upstream origin POT-XXXX
+  
+  
 ## 3. Update new runbook details under **"Level One"** in below format
 
   e.g.:
