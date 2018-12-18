@@ -1,20 +1,24 @@
-##How to add runbook to onemarket docs##
+# How to add runbook to onemarket docs
 
 
-#1. To get runbooks in **docs.one.market**, need to update below yml file#
+## 1. To get runbooks in **docs.one.market**, need to update below yml file#
 
   https://github.com/wrsinc/omdocs/blob/master/mkdocs.yml
 
 
-#2. git clone https://github.com/wrsinc/omdocs.git
+## 2. Clone git repo locally 
 
-  Username:
-
-  Password:
+  `git clone https://github.com/wrsinc/omdocs.git
+   Username:
+   Password:`
 
   ls
 
   cd omdocs/
+  
+  git branch POT-XXXX
+  
+  git checkout
 
   vim mkdocs.yml
 
@@ -23,35 +27,34 @@
   git status
 
   git add mkdocs.yml
+  
+  git status
 
   git commit -m "[POT-XXXX] Update mdocs file"
 
 
-#3. Update new runbook details under **"Level One"** in below format
+## 3. Update new runbook details under **"Level One"** in below format
 
-  e.g.
+  e.g.:
 
   - Level One:
-
      - Granting IAM Permissions: ops/runbooks/talentica/grantingiam.md
-
      - Talentica: ops/runbooks/talentica/talentica.md
-
      - Troubleshooting Builds: ops/runbooks/talentica/troubleshooting_jenkins.md
 
 
-#4. Add all runbooks in alphabetical order
+## 4. Add all runbooks in alphabetical order
 
 
-#5. Create new PR for this & review it from prodeng
+## 5. Create new PR for this & review it from prodeng
 
   https://github.com/wrsinc/omdocs/blob/master/docs/ops/runbooks/talentica/createpr.md
 
 
-#6. When it's approved from prodeng, we can merge this PR
+## 6. When it's approved from prodeng, we can merge this PR
 
 
-#7. Verify the following are rendering properly in **docs.one.market**
+## 7. Verify the following are rendering properly in **docs.one.market**
 
   - Changes/Addition/Deletions
 
