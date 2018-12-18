@@ -1,4 +1,3 @@
-
 # How to add runbook to onemarket docs
 
 
@@ -7,7 +6,7 @@
   https://github.com/wrsinc/omdocs/blob/master/mkdocs.yml
 
 
-## 2. Clone git repo locally 
+### 2. Clone git repo locally 
 
   git clone https://github.com/wrsinc/omdocs.git
    
@@ -38,7 +37,7 @@
   git push --set-upstream origin POT-XXXX
   
   
-## 3. Update new runbook details under **"Level One"** in below format
+### 3. Update new runbook details under **"Level One"** in below format
 
   e.g.:
 
@@ -51,18 +50,18 @@
      -Troubleshooting Builds: ops/runbooks/talentica/troubleshooting_jenkins.md
 
 
-## 4. Add all runbooks in alphabetical order
+### 4. Add all runbooks in alphabetical order
 
 
-## 5. Create new PR for this & review it from prodeng
+### 5. Create new PR for this & review it from prodeng
 
   https://github.com/wrsinc/omdocs/blob/master/docs/ops/runbooks/talentica/createpr.md
 
 
-## 6. When it's approved from prodeng, we can merge this PR
+### 6. When it's approved from prodeng, we can merge this PR
 
 
-## 7. Verify the following are rendering properly in **docs.one.market**
+### 7. Verify the following are rendering properly in **docs.one.market**
 
   - Changes/Addition/Deletions
 
