@@ -1,4 +1,4 @@
-# Steps to upgrade GKE version
+ Steps to upgrade GKE version
 
 1. Clone the git repository. 
 	  
