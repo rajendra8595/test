@@ -1,10 +1,10 @@
 # Steps to upgrade GKE version
 
-### 1. Clone the git repository. 
+#### 1. Clone the git repository. 
 	  
 	  git clone https://github.com/wrsinc/bin.git
       
-	  `Location of gke.sh file : The file is in bin repository. Path : bin/gke_updates/gke.sh`
+	  Location of gke.sh file : The file is in bin repository. Path : bin/gke_updates/gke.sh
 	
 ### 2. cd bin/gke_updates/
 	 
